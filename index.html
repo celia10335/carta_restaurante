@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans&family=Lobster&family=Nerko+One&family=Oleo+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./estilo_carta.css">
+    <title>Menú</title>
+</head>
+<body>
+
+    <script>
+        function abrirVentana(){
+    window.open("./alerg_window.html", "popup", "width=700,height=500");}
+    </script>
+
+    <header>
+        <div>
+            <h1>El pescaíto frito</h1>
+        </div>
+    </header>
+    
+    <menu id="menu">
+        <div class="menu_item">Entrantes
+            <a href="#entrantes"><div class="m1"></div></a>
+        </div>
+        <div class="menu_item">Pescados
+            <a href="#pescados"><div class="m2"></div></a>
+        </div>
+        <div class="menu_item">Mariscos
+            <a href="#mariscos"><div class="m3"></div></a>
+        </div>
+        <div class="menu_item">Pulpos
+            <a href="#pulpos"><div class="m4"></div></a>
+        </div>
+        <div class="menu_item">Carnes
+            <a href="#carnes"><div class="m5"></div></a>
+        </div>
+        <div class="menu_item">Postres
+            <a href="#postres"><div class="m6"></div></a>
+        </div>
+    </menu>
+
+    <main>
+        <div id="entrantes">
+            <h2>Entrantes</h2>
+            <table>
+                <tr><td>Patatas fritas</td><td>3,00 €</td></tr>
+                <tr><td>Berenjenas fritas</td><td>5,00 €</td><td><a href="" onclick="abrirVentana()"><span class="gluten">B</span></a></td></tr>
+                <tr><td>Ensalada mixta (1 pers)</td><td>5,00 €</td></tr>
+                <tr><td>Ensalada mixta (2 pers)</td><td>8,00 €</td></tr>
+                <tr><td>Ensaladilla rusa</td><td>6,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="pesc">O</span></a></td></tr>
+                <tr><td>Ensalada variada (1 pers)</td><td>6,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="pesc">O</span><span class="molu">P</span></a></td></tr>
+                <tr><td>Ensalada variada (2 pers)</td><td>10,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="pesc">O</span><span class="molu">P</span></a></td></tr>
+                <tr><td>Ensalada de pimientos</td><td>6,00 €</td></tr>
+                <tr><td>Patatas a la brava</td><td>6,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="gluten">B</span></a></td></tr>
+                <tr><td>Paella</td><td>12 €</td><td><a href="#alergenos"><span class="gluten">B</span><span class="pesc">O</span><span class="molu">P</span></a></td></tr>          
+                <tr><td>Caracoles</td><td>12 €</td><td><a href="#alergenos"><span class="gluten">B</span></a></td></tr>
+                <tr><td>Ensalada de pulpo</td><td>12 €</td><td><a href="#alergenos"><span class="molu">P</span></a></td></tr>
+                <tr><td>Ensalada tropical</td><td>12 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="pesc">O</span></a></td></tr>
+                <tr><td>Ensalada alioli</td><td>12 €</td><td><a href="#alergenos"><span class="huevo">A</span></a></td></tr>
+                <tr><td>Ensalada de mejillones</td><td>12 €</td><td><a href="#alergenos"><span class="molu">P</span></a></td></tr>
+                <tr><td>Ensalada de delicias</td><td>8,00 €</td><td><a href="#alergenos"><span class="pesc">O</span></a></td></tr>
+                <tr><td>Croquetas de pollo</td><td>9,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="gluten">B</span><span class="lacteo">I</span></a></td></tr>
+                <tr><td>Croquetas de marisco</td><td>10,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="gluten">B</span><span class="lacteo">I</span><span class="crusta">F</span></a></td></tr>
+                <tr><td>Croquetas de choco</td><td>10,00 €</td><td><a href="#alergenos"><span class="huevo">A</span><span class="gluten">B</span><span class="lacteo">I</span><span class="molu">P</span></a></td></tr>
+                <tr><td>Anchoas</td><td>12,00 €</td><td><a href="#alergenos"><span class="pesc">O</span></a></td></tr>
+                <tr><td>Patatas alioli</td><td>6,00 €</td><td><a href="#alergenos"><span class="huevo">A</span></a></td></tr>
+                <tr><td>Mejillones rellenos</td><td>10,00 €</td><td><a href="#alergenos"><span class="molu">P</span></a></td></tr>
+                <tr><td>Boquerones en vinagre</td><td>9,00 €</td><td><a href="#alergenos"><span class="pesc">O</span></a></td></tr>
+                <tr><td>Ensalada de Remolacha</td><td>5,00 €</td></tr>
+                <tr><td>Ensalada de Zanahoria</td><td>5,00 €</td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+
+        <div id="pescados">
+            <h2>Pescados</h2>
+            <table>
+                <tr><td>Cazón en Adobo</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Boquerones en Adobo</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Boquerones al Limón</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Boquerones Fritos</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Pijotas Fritas</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Salmonetes Fritos</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Acedías Fritas</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Huevas Fritas</td><td>10,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Choco Frito</td><td>12,00 €</td><td><span class="gluten">B</span><span class="molu">P</span></td></tr>
+                <tr><td>Chipirones Fritos<td>14,00 €</td><td><span class="gluten">B</span><span class="molu">P</span></td></td></tr>          
+                <tr><td>Calamares Fritos</td><td>14,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Fritura de Pescado 1 pers.</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Fritura de Pescado 2 pers.</td><td>18,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Fritura de Pescado 3 pers.</td><td>27,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Fritura de Pescado 4 pers.</td><td>36,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Sama al Rigomonti</td><td>15,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Gallo al Chef</td><td>18,00 €</td><td><span class="huevo">A</span><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Gallo a la plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Gallineta</td><td>10,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Filetes de pez limón a la plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Urta a la Espalda</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Voraces a la Espalda</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Dorada a la Espalda</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Lubina a la Espalda</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Rodaballo a la Plancha</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Lenguados a la Plancha</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Mero a la Espalda</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Atún a la Plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Filete de Gallo a la Plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Filete de Sama a la Plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Filete de pez Espada a la Plancha</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Brocheta de Rape</td><td>14,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Lomo de Bonito</td><td>12,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Brótola</td><td>10,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Merluza Frita</td><td>9,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Bacalao en Tomate</td><td>13,00 €</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Gallo Rebozado</td><td>15,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+                <tr><td>Bacalao Rebozado</td><td>15,00 €</td><td><span class="gluten">B</span><span class="pesc">O</span></td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+        <div id="mariscos">
+            <h2>Mariscos</h2>
+            <table>
+                <tr><td>Langostinos</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Gambas a la Plancha</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Gambas Empanadas</td><td>12,00 €</td><td><span class="huevo">A</span><span class="gluten">B</span><span class="crusta">F</span></td></tr>
+                <tr><td>Gambas al Pil-Pil</td><td>11,00 €</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Gambas al ajillo</td><td>11,00 €</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Gambas Fritas</td><td>14,00 €</td><td><span class="gluten">B</span><span class="crusta">F</span></td></tr>
+                <tr><td>Coquinas </td><td>11,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Almejas de Carril</td><td>13,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Cañaíllas de Pinchos</td><td>12,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Conchas Finas</td><td>10,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Mejillones al Vapor</td><td>10,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Bogavantes</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Langostas</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Centollos</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Changurro</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Carabinero</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Cigalas</td><td>s/m</td><td><span class="crusta">F</span></td></tr>
+                <tr><td>Angulas</td><td>s/m</td><td><span class="pesc">O</span></td></tr>
+                <tr><td>Gambas de Cristal</td><td>15,00 €</td><td><span class="crusta">F</span></td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+
+        <div id="pulpos">
+            <h2>Pulpos</h2>
+            <table>
+                <tr><td>Pulpo con Mayonesa</td><td>12,00 €</td><td><span class="huevo">A</span><span class="molu">P</span></td></tr>
+                <tr><td>Pulpo a la Gallega</td><td>13,00 €</td><td><span class="molu">P</span></td></tr>
+                <tr><td>Pulpo a la Canaria</td><td>12,00 €</td><td><span class="huevo">A</span><span class="gluten">B</span><span class="molu">P</span></td></tr>
+                <tr><td>Pulpo a la Marinera</td><td>13,00 €</td><td><span class="molu">P</span></td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+
+        <div id="carnes">
+            <h2>Carnes</h2>
+            <table>
+                <tr><td>Corazones de pollo</td><td>8,00 €</td><td></td></tr>
+                <tr><td>Pinchos de pollo</td><td>8,00 €</td></tr>
+                <tr><td>Albóndigas con Tomate</td><td>9,00 €</td><td><span class="huevo">A</span><span class="gluten">B</span></td></tr>
+                <tr><td>Solomillo a la Plancha</td><td>14,00 €</td></tr>
+                <tr><td>Solomillo a la Pimienta</td><td>16,00 €</td><td><span class="lacteo">I</span></td></tr>
+                <tr><td>Nuggets de Pollo</td><td>9,00 €</td><td><span class="huevo">A</span><span class="gluten">B</span></td></tr>
+                <tr><td>Kefta a la Plancha</td><td>8,00 €</td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+
+        <div id="postres">
+            <h2>Postres</h2>
+            <table>
+                <tr><td>Fresas con nata</td><td>4,00 €</td><td><span class="lacteo">I</span></td></tr>
+                <tr><td>Nueces con nata y miel</td><td>4,00 €</td><td><span class="fsecos">D</span><span class="lacteo">I</span></td></tr>
+                <tr><td>Macedonia de Frutas Nat.</td><td>4,00 €</td></tr>
+                <tr><td>Flan de Huevo</td><td>3,00 €</td><td><span class="huevo">A</span><span class="lacteo">I</span></td></tr>
+                <tr><td>Flan de Turrón</td><td>4,00 €</td><td><span class="huevo">A</span><span class="fsecos">D</span><span class="lacteo">I</span></td></tr>
+                <tr><td>Natillas</td><td>3,00 €</td><td><span class="huevo">A</span><span class="lacteo">I</span></td></tr>
+                <tr><td>Arroz con Leche</td><td>3,00 €</td><td><span class="lacteo">I</span></td></tr>
+                <tr><td>Yogur con Tocino de cielo</td><td>3,00 €</td><td><span class="huevo">A</span><span class="lacteo">I</span></td></tr>
+                <tr><td>Piña natural</td><td>4,00 €</td></tr>
+            </table>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+
+        <div id="alergenos">
+            <h2>Alérgenos</h2>
+            <div>
+                <p class="huevo">A<span>Huevos</span></p>
+                <p class="gluten">B<span>Gluten</span></p>
+                <p class="fsecos">D<span>Frutos secos</span></p>
+                <p class="crusta">F<span>Crustáceos</span></p>
+                <p class="lacteo">I<span>Lácteos</span></p>
+                <p class="pesc">O<span>Pescados</span></p>
+                <p class="molu">P<span>Moluscos</span></p>
+            </div>
+            <p><a href="#menu">Volver al menú</a></p>
+        </div>
+    </main>
+</body>
+</html>

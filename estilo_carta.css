@@ -1,0 +1,283 @@
+/* --------- Variables ---------- */
+:root {
+  --azul_palido: #bfc0c0;
+  --azul_suave: #4f5d75;
+  --violeta_suave: #2d3142;
+  --violeta_fuerte: #13151c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  background-image: url('./img/barcas.jpg');
+  background-size: cover;
+  height: 60vh;
+}
+
+h1 {
+  height: 100%;
+  padding-top: 10vh;
+  font-weight: 500;
+  font-family: 'Oleo Script', cursive;
+  font-size: 7.5vw;
+  text-align: center;
+  animation: animacion1 4s linear 0s infinite normal forwards;
+}
+
+header div {
+  background-color: rgba(239, 131, 84, 0.45);
+  height: 100%;
+}
+
+/* ----------- SECCIONES MENÚ -------------- */
+.menu_item {
+  background-color: rgba(79, 93, 117, 0.7);
+  height: 40vh;
+  width: 16.5vw;
+  padding: 2vh 0.8vw 2vh 0.8vw;
+  float: left;
+  text-align: center;
+  color: var(--azul_palido);
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.menu_item div {
+  border: solid 4px var(--azul_palido);
+  height: 75%;
+  border-radius: 50%;
+  margin-top: 3vh;
+  transition-property: transform;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+}
+
+.menu_item div:hover {
+  transform: rotateY(360deg);
+}
+
+.m1 {
+  background-image: url('./img/entrante.jpg');
+  background-size: cover;
+}
+
+.m2 {
+  background-image: url('./img/pescados.jpg');
+  background-size: cover;
+}
+
+.m3 {
+  background-image: url('./img/marisco.jpg');
+  background-size: cover;
+}
+
+.m4 {
+  background-image: url('./img/pulpos_peq.jpg');
+  background-size: cover;
+}
+
+.m5 {
+  background-image: url('./img/carnes.jpg');
+  background-size: cover;
+}
+
+.m6 {
+  background-image: url('./img/postres.jpg');
+  background-size: cover;
+  clear: both;
+}
+
+/* ---------- MAIN ------------- */
+main {
+  background-color: var(--azul_palido);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23BFC0C0' cx='50' cy='0' r='50'/%3E%3Cg fill='%23b7c0bf' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b0c0bd' cx='50' cy='100' r='50'/%3E%3Cg fill='%23a9c0ba' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a4c0b5' cx='50' cy='200' r='50'/%3E%3Cg fill='%239fbfaf' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%239dbea8' cx='50' cy='300' r='50'/%3E%3Cg fill='%239cbda0' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%239cbb97' cx='50' cy='400' r='50'/%3E%3Cg fill='%239fba8e' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a2b784' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a7b47a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23aeb171' cx='50' cy='600' r='50'/%3E%3Cg fill='%23b4ad68' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bca960' cx='50' cy='700' r='50'/%3E%3Cg fill='%23c4a459' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cd9f54' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d69951' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23de924f' cx='50' cy='900' r='50'/%3E%3Cg fill='%23e78b51' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23EF8354' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 40vh 10vw 5vh 10vw;
+}
+
+main div {
+  background-color: rgb(239, 131, 84, 0.25);
+  border-radius: 15px;
+  width: 80%;
+  margin: 6vh 10% 0vh 10%;
+  padding: 1vh 0.75vw 1vh 3vw;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5vw;
+  color: var(--violeta_suave);
+}
+
+main div h2 {
+  font-weight: 500;
+  font-family: 'Oleo Script', cursive;
+  font-size: 3vw;
+  color: var(--violeta_suave);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+tr {
+  line-height: 3vh;
+}
+
+td:first-child {
+  width: 65%;
+  padding: 1vh 0 1vh 0;
+}
+
+td:nth-child(2) {
+  text-align: right;
+  width: auto;
+  padding-right: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--azul_suave);
+}
+
+table + p,
+#alergenos > p {
+  text-align: center;
+  padding: 0.7vh 1vw 1vh 0;
+  font-size: 1.1vw;
+}
+
+table + p:hover,
+#alergenos > p:hover {
+  font-weight: 800;
+  color: var(--violeta_fuerte);
+}
+
+/* ------ALÉRGENOS------- */
+tr td:nth-child(3) {
+  font-family: 'allergen';
+  font-size: 2.4vw;
+  width: auto;
+  padding-bottom: 1.5vh;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+main div:last-of-type {
+  padding: 2vh 0vw 2vh 3.5vw;
+  background-color: transparent;
+  border: solid var(--azul_palido) 1px;
+}
+
+/*símbolos de alérgenos: */
+main div:last-of-type div,
+div.popup {
+  border: none;
+  column-count: 2;
+  font-family: 'allergen';
+  font-size: 3.5vw;
+  margin: auto;
+  line-height: 3.2vh;
+}
+
+p > span,
+.popup span {
+  font-family: 'Comfortaa', cursive;
+  color: var(--violeta_suave);
+  font-size: 1.3vw;
+}
+
+main div:last-child h2,
+h2.popup {
+  font-weight: 500;
+  font-family: 'Oleo Script', cursive;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.huevo {
+  color: rgb(255, 255, 92);
+}
+
+.gluten {
+  color: rgb(255, 75, 9);
+}
+
+.fsecos {
+  color: rgb(93, 40, 19);
+}
+
+.crusta {
+  color: rgb(25, 54, 79);
+}
+
+.lacteo {
+  color: rgb(216, 216, 216);
+}
+
+.pesc {
+  color: rgb(28, 90, 28);
+}
+
+.molu {
+  color: rgb(189, 69, 89);
+}
+
+/* ---------- Pop-up ----------- */
+main.popup {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+div.popup {
+  line-height: 1.5em;
+}
+
+h2.popup {
+  font-size: 3em;
+  color: var(--azul_suave);
+}
+
+p.popup {
+  font-size: 2em;
+}
+
+.popup span {
+  font-size: 0.4em;
+}
+
+@keyframes animacion1 {
+  0% {
+    color: var(--violeta_suave);
+  }
+  25% {
+    color: var(--azul_suave);
+    transform: translateY(25px);
+  }
+  50% {
+    color: var(--violeta_suave);
+  }
+  75% {
+    color: var(--violeta_fuerte);
+    transform: translateY(-25px);
+  }
+  100% {
+    color: var(--violeta_suave);
+  }
+}
+
+@font-face {
+  font-family: 'allergen';
+  src: url('./fuentes/Allergen\ Solid.ttf') format('truetype');
+}
